@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b35">
+  <title>KAWTAL BUSINESS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="mark">K</span><div><strong>KAWTAL</strong><small>BUSINESS</small></div></div>
+    <button class="avatar" aria-label="Profil">KS</button>
+  </header>
+  <main>
+    <section class="welcome">
+      <p class="eyebrow">ESPACE DE GESTION</p>
+      <h1>Bonjour 👋</h1>
+      <p>Voici le résumé de votre activité.</p>
+    </section>
+    <section class="stats">
+      <article class="stat"><span>Ventes du jour</span><strong id="sales">850 000 GNF</strong><small class="positive">↑ Activité du jour</small></article>
+      <article class="stat"><span>Produits en stock</span><strong>128</strong><small>Articles enregistrés</small></article>
+      <article class="stat"><span>Clients</span><strong>46</strong><small>Clients enregistrés</small></article>
+      <article class="stat"><span>Dépenses</span><strong>120 000 GNF</strong><small>Cette semaine</small></article>
+    </section>
+    <section class="panel">
+      <div class="section-head"><div><p class="eyebrow">VOTRE ACTIVITÉ</p><h2>Actions rapides</h2></div></div>
+      <div class="actions">
+        <button class="action" data-message="La fonction Ajouter une vente sera connectée dans la prochaine version."><span>＋</span>Ajouter une vente</button>
+        <button class="action" data-message="La gestion des produits sera connectée dans la prochaine version."><span>▦</span>Ajouter un produit</button>
+        <button class="action" data-message="La gestion des clients sera connectée dans la prochaine version."><span>♙</span>Ajouter un client</button>
+        <button class="action" data-message="La saisie des dépenses sera connectée dans la prochaine version."><span>−</span>Ajouter une dépense</button>
+      </div>
+      <p id="notice" class="notice" role="status">Choisissez une action pour découvrir le prototype.</p>
+    </section>
+    <section class="panel">
+      <div class="section-head"><div><p class="eyebrow">SUIVI</p><h2>Dernières opérations</h2></div><span class="tag">Démo</span></div>
+      <div class="operation"><div class="op-icon sale">↗</div><div class="op-text"><strong>Vente comptoir</strong><small>Aujourd'hui · 10:42</small></div><b>+ 350 000 GNF</b></div>
+      <div class="operation"><div class="op-icon expense">↙</div><div class="op-text"><strong>Achat de marchandises</strong><small>Aujourd'hui · 09:15</small></div><b class="muted">− 120 000 GNF</b></div>
+      <div class="operation"><div class="op-icon sale">↗</div><div class="op-text"><strong>Vente client</strong><small>Hier · 16:30</small></div><b>+ 500 000 GNF</b></div>
+    </section>
+    <footer>© 2026 KAWTAL BUSINESS <span>Prototype de démonstration</span></footer>
+  </main>
+  <nav class="bottom-nav"><a class="selected" href="#"><span>⌂</span>Accueil</a><a href="#actions"><span>▦</span>Gestion</a><a href="#suivi"><span>▤</span>Rapports</a><a href="#"><span>⚙</span>Réglages</a></nav>
+  <script src="app.js"></script>
+</body>
+</html>

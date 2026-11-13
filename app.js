@@ -1,0 +1,1 @@
+document.querySelectorAll('.action').forEach(button=>button.addEventListener('click',()=>{document.getElementById('notice').textContent=button.dataset.message;}));
